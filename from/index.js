@@ -1,3 +1,12 @@
+/*
+* from(...)
+*
+* Converts an array, promise or iterator into an observable
+*  - *fromPromise can be used specifically for promises
+* */
+
+// To see the result, write in the console: npx babel-node from
+
 import Rx from 'rxjs';
 
 const fibonacciArray = [1, 1, 2, 3, 5, 8, 13, 21];
